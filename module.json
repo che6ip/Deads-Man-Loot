@@ -1,0 +1,36 @@
+{
+  "id": "deads-man-loot",
+  "title": "Dead's Man Loot",
+  "description": "Базовый модуль лута с мёртвых существ в стиле WoW: окно добычи, бросок шансов при смерти, перенос предметов, мешочки монет и проценты дропа. Системно-зависимые значения передают модули deads-man-loot-pf2e и deads-man-loot-dnd5e.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "YourName"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.369"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      },
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/deads-man-loot.mjs"
+  ],
+  "styles": [
+    "styles/deads-man-loot.css"
+  ],
+  "readme": "README.md",
+  "license": "MIT",
+  "socket": true
+}
